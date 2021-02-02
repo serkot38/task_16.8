@@ -7,5 +7,7 @@
         }
             return 1;
     }
-    echo power(2, 3);
+    $a = readline();
+    $n = readline();
+    echo power($a, $n);
 ?>

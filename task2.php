@@ -3,9 +3,9 @@
     $b = readline('Введите второе число - ');
     $c = readline('Введите третье число - ');
 
-    if ($a > $b && $a > $c) {
+    if ($a >= $b && $a >= $c) {
         $max = $a;
-    } elseif ($a < $b && $b > $c) {
+    } elseif ($b >= $a && $b >= $c) {
         $max = $b;
     } else {
         $max = $c;
